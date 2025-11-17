@@ -1,0 +1,50 @@
+================================================================================
+REPORTE DE ANÁLISIS DE ALGORITMOS DE PLANIFICACIÓN DE DISCO
+================================================================================
+
+RESUMEN GENERAL
+--------------------------------------------------------------------------------
+Número de cilindros: 5,000
+Número de solicitudes: 1,000
+
+
+ALGORITMO: FCFS
+--------------------------------------------------------------------------------
+Movimiento total de la cabeza: 1,754,734 cilindros
+Distancia promedio por solicitud: 1754.73 cilindros
+Distancia mínima: 3 cilindros
+Distancia máxima: 4962 cilindros
+Distancia mediana: 1596.00 cilindros
+Desviación estándar: 1204.84 cilindros
+
+ALGORITMO: SCAN
+--------------------------------------------------------------------------------
+Movimiento total de la cabeza: 7,496 cilindros
+Distancia promedio por solicitud: 7.50 cilindros
+Distancia mínima: 0 cilindros
+Distancia máxima: 2504 cilindros
+Distancia mediana: 3.50 cilindros
+Desviación estándar: 79.21 cilindros
+
+ALGORITMO: C-SCAN
+--------------------------------------------------------------------------------
+Movimiento total de la cabeza: 9,993 cilindros
+Distancia promedio por solicitud: 9.98 cilindros
+Distancia mínima: 0 cilindros
+Distancia máxima: 4999 cilindros
+Distancia mediana: 3.00 cilindros
+Desviación estándar: 157.94 cilindros
+
+================================================================================
+ANÁLISIS COMPARATIVO
+================================================================================
+
+Mejor algoritmo (menor movimiento): SCAN
+Movimiento mínimo: 7,496 cilindros
+
+Eficiencia relativa (100% = mejor):
+  FCFS: 23408.94%
+  SCAN: 100.00%
+  C-SCAN: 133.31%
+
+================================================================================
